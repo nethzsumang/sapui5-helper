@@ -1,6 +1,6 @@
 {
   "name": "sapui5-helper",
-  "version": "0.3.1-1",
+  "version": "0.3.1",
   "description": "Helper for SAPUI5 programming.",
   "main": "index.js",
   "bin": {

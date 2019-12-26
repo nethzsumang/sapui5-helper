@@ -44,7 +44,8 @@ module.exports = {
             INDEX_JS: sCwd + '/resources/index.js',
             APP_VIEW_XML: sCwd + '/resources/App.view.xml',
             APP_CONTROLLER: sCwd + '/resources/App.controller.js',
-            COMPONENT_JS: sCwd + '/resources/Component.js'
+            COMPONENT_JS: sCwd + '/resources/Component.js',
+            APP_VIEW_JS: sCwd + '/resources/App.view.js'
         }
     },
 

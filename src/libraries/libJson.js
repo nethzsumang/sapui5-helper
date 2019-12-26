@@ -45,12 +45,12 @@ module.exports = {
      * Stringify JSON
      * @param {*} mData 
      */
-    stringifyJson: function (mData) {
+    stringifyJson: function (mData, iSpaces=2) {
         if (typeof mData === 'object' ||
             typeof mData === 'array') {
             return {
                 success: true,
-                data: JSON.stringify(mData)
+                data: JSON.stringify(mData, null, iSpaces)
             };
         } else {
             return {

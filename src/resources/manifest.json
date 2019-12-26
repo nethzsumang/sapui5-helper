@@ -1,0 +1,35 @@
+{
+    "_version": "1.12.0",
+    "sap.app": {
+        "id": "a",
+        "type": "application",
+        "i18n": "i18n/i18n.properties",
+        "title": "a",
+        "description": "none",
+        "applicationVersion": {
+            "version": "1.0.0"
+        }
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        }
+    },
+    "sap.ui5": {
+        "rootView": {
+            "viewName": "sap.ui.app.a.view.App",
+            "type": "XML",
+            "async": true,
+            "id": "app"
+        },
+        "dependencies": {
+            "minUI5Version": "1.60",
+            "libs": {
+                "sap.m": {}
+            }
+        }
+    }
+}

@@ -48,5 +48,19 @@ module.exports = {
     createFile: function (sPath, sContents='') {
         fs.writeFileSync(sPath, sContents);
         return {success: true};
+    },
+
+    /**
+     * Deletes file if present. Then writes the file.
+     * @param {*} sPath 
+     * @param {*} sContents 
+     */
+    overwriteFile: function (sPath, sContents='') {
+        if (this.isFileExists(sPath) === true) {
+            fs.unlinkSync(sPath);
+        }
+
+        fs.writeFileSync(sPath, sContents);
+        return {success: true};
     }
 };

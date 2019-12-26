@@ -51,6 +51,7 @@ const createManifest = async function () {
         process.exit(1);
     }
     libFile.overwriteFile(constants.cwd() + '/manifest.json', oResponse.data);
+    console.log('Manifest file created.');
 };
 
 createManifest();

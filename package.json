@@ -6,7 +6,7 @@
   "bin": {
     "sapui5-new-project": "./src/scripts/sapui5-new-project.js",
     "sapui5-run": "./src/scripts/sapui5-run.js",
-    "sapui5-new-file": "./src/sapui5-new-file.js",
+    "sapui5-new-file": "./src/scripts/sapui5-new-file.js",
     "sapui5-create-manifest": "./src/scripts/sapui5-create-manifest.js"
   },
   "author": "kennethsumang08@gmail.com",

@@ -1,0 +1,28 @@
+{
+  "name": "sapui5-helper",
+  "version": "0.2.13",
+  "description": "Helper for SAPUI5 programming.",
+  "main": "index.js",
+  "bin": {
+    "sapui5-new-project": "./src/scripts/sapui5-new-project.js",
+    "sapui5-run": "./src/sapui5-run.js",
+    "sapui5-new-file": "./src/sapui5-new-file.js",
+    "sapui5-create-manifest": "./src/sapui5-create-manifest.js"
+  },
+  "author": "kennethsumang08@gmail.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nethzsumang/sapui5-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nethzsumang/sapui5-helper/issues"
+  },
+  "homepage": "https://github.com/nethzsumang/sapui5-helper#readme",
+  "dependencies": {
+    "inquirer": "^6.5.0"
+  },
+  "keywords": [
+    "sapui5"
+  ]
+}

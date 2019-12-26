@@ -1,6 +1,6 @@
 ## SAPUI5 Helper
 <div>
-<a href="https://www.npmjs.com/package/sapui5-helper"><img src="https://img.shields.io/badge/version-0.2.13-blue.svg"></a>
+<a href="https://www.npmjs.com/package/sapui5-helper"><img src="https://img.shields.io/badge/version-0.1-blue.svg"></a>
 <a href="https://choosealicense.com/licenses/isc/"><img src="https://img.shields.io/badge/license-ISC-blue.svg"></a>
 </div>
 A SAPUI5 helper package for creating new projects and running it on Node server.

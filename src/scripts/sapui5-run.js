@@ -1,13 +1,21 @@
 #! /usr/bin/env node
 // Source: https://gist.github.com/ryanflorence/701407
 let aArguments = process.argv;
-let file = require('./libs/file');
+const libFile = require('../libraries/libFile');
+const libArgs = require('../libraries/libArgs');
 
-let iPortNumber = (aArguments.length === 2) ? 4000 : parseInt(aArguments[2], 10);
+let oResponse = libArgs.getArguments(3);
+let iPortNumber = 0;
+if (oResponse.success === false) {
+    iPortNumber = 4000;
+} else {
+    iPortNumber = oResponse.data[2];
+}
+
 let sCwd = process.cwd();
 let sIndexHtmlPath = sCwd + '/index.html';
 
-if (!file.isFileExists(sIndexHtmlPath)) {
+if (!libFile.isFileExists(sIndexHtmlPath)) {
     console.log('Not a valid SAPUI5 project.');
     process.exit(1);
 }

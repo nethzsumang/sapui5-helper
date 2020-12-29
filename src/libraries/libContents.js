@@ -17,7 +17,7 @@ module.exports = {
             }
             let sContents = oResponse.data;
             sContents = sContents.replace(/sap\.ui\.app\.test/gm, 'sap.ui.app.' + sProjectName);
-            sContents = sContents.replace(/{"id" : "test"}/gm, '"id" : "' + sProjectName + '"');
+            sContents = sContents.replace(/{"id" : "test"}/gm, '{"id" : "' + sProjectName + '"}');
             sContents = sContents.replace(/id : "test"/gm, 'id : "' + sProjectName + '"');
             oContents[sKey] = sContents;
             return true;
